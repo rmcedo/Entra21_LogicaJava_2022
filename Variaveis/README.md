@@ -11,7 +11,7 @@
 - double
 - boolean
 
-# INTERAÇÃO DO USUÁRIO COM O CÓDIGO
+# Interação do usuário com o código
 
 ## Console
 
