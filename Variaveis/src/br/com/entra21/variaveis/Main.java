@@ -52,7 +52,8 @@ public class Main {
 
 		String nome;
 		byte minhaIdade;
-		float salario;
+		float salario , minhaAltura;
+		
 		
 		  //qualquer variavel que o usuario irá digitar no formulário deve ser criada anteriormente
 		  
@@ -88,8 +89,8 @@ public class Main {
 				JOptionPane.showInputDialog("Informe sua Idade: ")
 				);
 		
-				JOptionPane.showMessageDialog(null, "Sua idade é " +minhaIdade);
-				
+				JOptionPane.showMessageDialog(null, "Sua idade é " +minhaIdade); //null, serve para um objeto que ainda não tem valor
+								
 		salario = Float.parseFloat(
 				JOptionPane.showInputDialog("Informe seu salário: ")
 				);
