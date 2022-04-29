@@ -13,8 +13,8 @@ public class Main {
 		Scanner entrada = new Scanner(System.in);
 		
 		float custo;
-		String produto;
 		double aumento;
+		String produto;
 		double precoVenda;
 		
 		System.out.println("Insira o nome do produto:");
