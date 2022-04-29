@@ -1,0 +1,1 @@
+# Exercício Operador de Igualdade

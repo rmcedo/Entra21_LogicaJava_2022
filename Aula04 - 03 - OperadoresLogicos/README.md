@@ -16,7 +16,7 @@ Os operadores lógicos representam o recurso que nos permite criar expressões lóg
 | F | F |     F     |
 
 
-> - || - Utilizado quando precisamos que pelo meno um das expressões seja verdadeira.
+> - || - Utilizado quando precisamos que pelo menos um das expressões seja verdadeira.
 
 > Para || para ser TRUE, apenas um dos valores booleanos necessita ser TRUE.
 
