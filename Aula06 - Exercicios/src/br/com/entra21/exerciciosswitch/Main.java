@@ -66,5 +66,41 @@ public class Main {
 				System.out.println("\nNenhuma dessas cores é sua favorita!");
 				break;
 	}
-
+		
+		final float ALTURA;
+		float altura;
+		String nome;
+		ALTURA = 1.70f;
+		
+		Scanner entrada3 = new Scanner(System.in);
+		
+		System.out.println("\nDigite seu nome:\n");
+		nome = entrada3.next();
+		
+		System.out.println("Digite sua altura:\n");
+		
+		altura = entrada3.nextFloat();
+		
+		if(altura<ALTURA) {
+			System.out.println("Não atinge a altura mínima");
+		} else {
+			System.out.println("Possui a altura necessária");
+		}
+		//// ver como fazer isso com o switch
+		switch(altura) {
+		
+		case altura<ALTURA:
+			System.out.println("Não atinge a altura mínima");
+		break;
+		case altura>ALTURA:
+			System.out.println("Possui a altura necessária");
+		break;
+		default:
+			System.out.println("NADA");
+			break;
+		}
+		
+		
+		
+				
 	}}
