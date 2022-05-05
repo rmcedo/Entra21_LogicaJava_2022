@@ -41,25 +41,25 @@ public class Main {
 		Scanner entrada2= new Scanner(System.in);
 		
 		System.out.println("Dentre as opções a seguir, qual é sua cor favorita?\n");
-		System.out.println("1 = Verde\n");
-		System.out.println("2 = Azul\n");
-		System.out.println("3 = Amarelo\n");
-		System.out.println("4 = Vermelho\n");
+		System.out.println("Verde\n");
+		System.out.println("Azul\n");
+		System.out.println("Amarelo\n");
+		System.out.println("Vermelho\n");
 		
 		opcao2 = entrada2.next();
 		
 		switch(opcao2) {
 		
-		case "1":
+		case "verde":
 			System.out.println("\nSua cor favorita é: Verde");
 			break;
-		case "2":
+		case "azul":
 			System.out.println("\nSua cor favorita é: Azul");
 			break;
-		case "3":
+		case "amarelo":
 			System.out.println("\nSua cor favorita é: Amarelo");
 			break;
-		case "4":
+		case "vermelho":
 			System.out.println("\nSua cor favorita é: Vermelho");
 			break;
 			default:
@@ -86,19 +86,7 @@ public class Main {
 		} else {
 			System.out.println("Possui a altura necessária");
 		}
-		//// ver como fazer isso com o switch
-		switch(altura) {
 		
-		case altura<ALTURA:
-			System.out.println("Não atinge a altura mínima");
-		break;
-		case altura>ALTURA:
-			System.out.println("Possui a altura necessária");
-		break;
-		default:
-			System.out.println("NADA");
-			break;
-		}
 		
 		
 		
