@@ -160,7 +160,13 @@ public class Main {
 	}
 
 	public static void verPares() {
+		System.out.println("\n Exercício Números Pares:\n");
+		byte num;
 
+		Scanner input = new Scanner(System.in);
+		for (int count = 1; count <= 10; count++) {
+
+		}
 	}
 
 	public static void verZeroACem() {
@@ -172,6 +178,29 @@ public class Main {
 	}
 
 	public static void verMedia() {
+		byte qtd;
+		float nota, soma = 0f;
+		System.out.println("\nExercício Média do Aluno\n");
+		Scanner input = new Scanner(System.in);
+		System.out.println("\nQuantas notas?");
+		qtd = input.nextByte();
+		byte count = 0;
+		String resposta;
+
+		do {
+			System.out.println("Informe uma nota:");
+			nota = input.nextFloat();
+			if (count <= qtd) {
+				System.out.println("\nQuer capturar mais alguma nota? ");
+				resposta = input.next();
+				if (resposta.equals("sim")) {
+					count--;
+				}
+			}
+
+		} while (count <= qtd);
+		System.out.println("SOMA = " + soma);
 
 	}
+
 }
