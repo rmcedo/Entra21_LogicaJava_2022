@@ -5,7 +5,7 @@
 
 ## Conteúdo Prático Realizado em Sala
  
-<a href="#"><img  src="/giphy.gif" width="500 " height="350" /></a>
+<a href="#"><img  src="C:\Users\rMcedo\Pictures\entra21.gif" width="500 " height="350" /></a>
 
 | AULA | ASSUNTO |
 |------|---------|
