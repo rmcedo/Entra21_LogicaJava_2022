@@ -29,3 +29,4 @@
 |Aula 07 - 01|[Funções](./Aula07%20-%2001%20-%20Funcoes/)
 |Aula 09 - 01|[For](./Aula09%20-%20For/)
 |Aula 10 - 01|[While / Do-While](./Aula10%20-%2001%20-%20While/)
+|Aula 12 - 01|[Vetores](./Aula12%20-%2001%20-%20Vetores/)
