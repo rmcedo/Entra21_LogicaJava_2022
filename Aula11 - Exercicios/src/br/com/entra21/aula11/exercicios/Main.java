@@ -175,6 +175,21 @@ public class Main {
 
 	public static void verSomaComEncerramento() {
 
+		Scanner input = new Scanner(System.in);
+		int number, sum = 0; // caso não inicialize , ela fica com lixo na memória.
+
+		do {
+			System.out.println("Que número você escolheu?\n");
+			number = input.nextInt();
+			if (number >= 0) {
+
+				sum = sum + number;
+				// somento numeros positivos serão somados, ou numeros naturais.
+
+			}
+
+		} while (number >= 0); // enquanto o number for maior que zero repita
+		System.out.println("Seu numero é: " + sum);
 	}
 
 	public static void verMedia() {
