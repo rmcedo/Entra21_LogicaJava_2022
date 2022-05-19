@@ -29,7 +29,7 @@ idades= new byte[10];
 notas= new float[3]; 
 ````
 
-> -Armazenar elementos no vetor ou matriz. Para armazenar uma informação em um dos elementos de um vetor ou matriz, é necessário fornecer um índice que indique a posição desse elemento. Por exemplo, para armazenar um valor na quarta posição do vetor idades, fazemos o seguinte:
+> - Armazenar elementos no vetor ou matriz. Para armazenar uma informação em um dos elementos de um vetor ou matriz, é necessário fornecer um índice que indique a posição desse elemento. Por exemplo, para armazenar um valor na quarta posição do vetor idades, fazemos o seguinte:
 
 ````java
 idades[3] = 18;
